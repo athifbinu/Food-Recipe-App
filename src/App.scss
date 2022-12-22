@@ -10,10 +10,69 @@
 body {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 16px;
-  background-color: antiquewhite;
+  background-color: rgb(233, 152, 46);
   
 
 }
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+// Website font sizes
+h1 {
+  font-size: 38px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+h4 {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+  max-width: 680px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin: 100px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 
 //globall clases
 
@@ -24,6 +83,12 @@ body {
     max-width: 1000px;
     margin: auto;
    }
+   .flex{
+    display: flex;
+   }
+  
+
+
  
 
    
@@ -76,7 +141,7 @@ body {
 
 
 
-  //special dishess
+  // special dishess
 
   .special-dishes{
     &-content{
@@ -84,9 +149,19 @@ body {
        text-align: center;
        font-weight: bold;
        
+       
 
     }
+
+    &-list{
+         li {
+          width: 50%;
+         }
+    }
   }
+
+
+
 
   
 
