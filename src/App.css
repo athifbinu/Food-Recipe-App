@@ -112,4 +112,20 @@ a {
 
 .special-dishes-list li {
   width: 50%;
-}/*# sourceMappingURL=App.css.map */
+}
+
+.special-dishes-content{
+  text-align: center;
+  
+}
+.special-dishes-list{
+  width: 150px;
+  height: 150px;
+  
+  
+
+}
+
+
+
+/*# sourceMappingURL=App.css.map */

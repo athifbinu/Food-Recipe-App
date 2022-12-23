@@ -74,19 +74,7 @@ a {
 
 
 
-//globall clases
 
-   .text-center{
-    text-align: center;
-   }
-   .container{
-    max-width: 1000px;
-    margin: auto;
-   }
-   .flex{
-    display: flex;
-   }
-  
 
 
  
@@ -141,24 +129,9 @@ a {
 
 
 
-  // special dishess
 
-  .special-dishes{
-    &-content{
-       max-width: 700px;
-       text-align: center;
-       font-weight: bold;
-       
-       
 
-    }
 
-    &-list{
-         li {
-          width: 50%;
-         }
-    }
-  }
 
 
 

@@ -5,7 +5,7 @@ function SpecialDishes(props) {
 
        let specialMenu=props.specialMenu.map((menuItem)=>{
         return(
-          <ul className='flex '>
+          <ul className='flexs'>
             <li >
               <img src={menuItem.strMealThumb} alt="" />
               <h4>{menuItem.strMeal}</h4>
