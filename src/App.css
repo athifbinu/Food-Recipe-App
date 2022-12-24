@@ -78,6 +78,10 @@ a {
 
 .flex {
   display: flex;
+  
+}
+.gap{
+  gap: 20px;
 }
 
 .hero {
@@ -121,9 +125,16 @@ a {
 .special-dishes-list{
   width: 150px;
   height: 150px;
+
   
   
 
+}
+.specialImg img{
+
+  width: 150x;
+  height: 150px;
+  
 }
 
 
