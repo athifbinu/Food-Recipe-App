@@ -10,7 +10,7 @@
 body {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 16px;
-  background-color: rgb(233, 152, 46);
+  background-color: #fff;
   
 
 }
@@ -81,6 +81,10 @@ a {
 
 
 
+ 
+
+
+
 
 
 
@@ -135,6 +139,34 @@ a {
     }
   }
 
+
+     //filtered dishes
+.filtered-dishes{
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  li {
+    background-color: rgb(113, 211, 113);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transform: all ease 0.3s;
+
+    &.active {
+      background-color: black;
+    }
+    &:hover {
+      background-color: black;
+    }
+  }
+  
+}
 
 
 
