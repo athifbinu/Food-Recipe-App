@@ -50,10 +50,12 @@ function Menu() {
   return (
     <div>
             <SpecialDishes specialMenu={menu}/>
-            <FilteredDishes allmenuCategorys={menuCategory}/>
+            <FilteredDishes allmenuCategorys={menuCategory} allMenus={menu}/>
             
     </div>
   )
 }
 
 export default Menu
+
+// allMenus={menu}

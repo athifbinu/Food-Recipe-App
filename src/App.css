@@ -8,7 +8,7 @@
 body {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 16px;
-  background-color: rgb(233, 152, 46);
+  background-color: hwb(348 81% 9%);
 }
 
 p {
