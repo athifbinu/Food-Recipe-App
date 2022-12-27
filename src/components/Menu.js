@@ -5,6 +5,7 @@ function Menu() {
 
     let [menu,setMenu]=useState([])
     let [menuCategory,setMenuGategory]=useState([])
+    let[loading,setLoading]=useState(true)
 
 
 
@@ -16,6 +17,7 @@ function Menu() {
         let responce=await fetch(API_url)
         let data=await responce.json()
         setMenu(data.meals)
+        setLoading(false)
       
     }
 
@@ -48,9 +50,11 @@ function Menu() {
 
           
   return (
-    <div>
-            <SpecialDishes specialMenu={menu}/>
-            <FilteredDishes allmenuCategorys={menuCategory} allMenus={menu}/>
+    <div>   {!loading ?<SpecialDishes specialMenu={menu} />:<h1>Loading</h1> }
+             {!loading ?(
+             <FilteredDishes allmenuCategorys={menuCategory} allMenus={menu}/>)
+              : null}
+
             
     </div>
   )

@@ -9,6 +9,7 @@ function FilteredDishes(props){
 
               let [allMenus,setAllmenus]=useState(props.allMenus)
               let [filteredDishes,setFilteredDishes]=useState([])
+            
 
                   //show dishes click
         function showFilteredDishesHandler(Category) {
@@ -53,7 +54,7 @@ function FilteredDishes(props){
             </div>
                <div className="filtered-dishes-results">
                 <ul className="flex flex-wrap gap-30">
-                    
+                     {filteredDishes}
                 </ul>
                </div>
            </div>
